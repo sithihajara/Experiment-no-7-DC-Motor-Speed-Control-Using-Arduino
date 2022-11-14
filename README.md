@@ -26,7 +26,7 @@ TABLE-01 EXITATION TABLE FOR H BRIDGE
 As shown in the circuit diagram we need only 3 Arduino terminal pins, pin 8 is for the push button which toggles the motor direction of rotation. Pins 9 and 10 are PWM signal outputs, at any time there is only 1 active PWM, this allows us to control the direction as well as the speed by varying the duty cycle of the PWM signal. The active PWM pin decides the motor direction of rotation (one at a time, the other output is logic 0).
 
 ## PRGORAM 
-###PROGRAM TO MAKE DC MOTOR ROTATE
+### PROGRAM TO MAKE DC MOTOR ROTATE
 ```
 const int motorpin1 = 5;
 const int motorpin2 = 6;
@@ -45,7 +45,7 @@ void loop()
   delay(2000);
 }
 ```
-##PROGRAM TO CONTROL DC MOTOR ROTATION
+### PROGRAM TO CONTROL DC MOTOR ROTATION
 ```
 #define motorIn1 5
 #define motorIn2 6
@@ -80,10 +80,14 @@ void clockwise(int speed)
 ### OUTPUT
 ### GRAPH AND TABULATION
 ### CLOCKWISE
-![198868197-cd2ce5bb-1641-4ceb-b18c-a3e3970cd642](https://user-images.githubusercontent.com/94219582/201654104-093436cf-4b84-4687-aeaa-145d74f1099e.png)
-![198868197-cd2ce5bb-1641-4ceb-b18c-a3e3970cd642](https://user-images.githubusercontent.com/94219582/201654135-7b96890d-26be-4d34-94ba-796d3e5731e9.png)
+![198868197-cd2ce5bb-1641-4ceb-b18c-a3e3970cd642](https://user-images.githubusercontent.com/94219582/201654751-ed977a09-58dc-4043-8e3a-b53ce9757184.png)
+
+![198868197-cd2ce5bb-1641-4ceb-b18c-a3e3970cd642](https://user-images.githubusercontent.com/94219582/201654788-1cdf7cdd-f7fb-4001-a922-94829ae2ede4.png)
+
 ### COUNTER CLOCKWISE
-![198868218-a52b4338-015a-4e4c-8d50-f85d6d81a2bf](https://user-images.githubusercontent.com/94219582/201654270-ff4a9aaa-d9d1-4884-a20f-9c538b3acbdb.png)
-![198868218-a52b4338-015a-4e4c-8d50-f85d6d81a2bf](https://user-images.githubusercontent.com/94219582/201654331-20744da5-6582-4328-b96a-d3a1b67bac3b.png)
+![198868218-a52b4338-015a-4e4c-8d50-f85d6d81a2bf](https://user-images.githubusercontent.com/94219582/201654858-4b1cec1b-32d9-444b-abcc-386f9342affc.png)
+
+![198868218-a52b4338-015a-4e4c-8d50-f85d6d81a2bf](https://user-images.githubusercontent.com/94219582/201654909-882b25f2-c391-4f1d-b0fa-746d594a7518.png)
+
 ### RESULTS AND DISCUSSION
 Thus, the speed and the direction of a DC motor using L293D driver ic( H- bridge) is controlled.
