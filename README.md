@@ -82,12 +82,8 @@ void clockwise(int speed)
 ### CLOCKWISE
 ![198868197-cd2ce5bb-1641-4ceb-b18c-a3e3970cd642](https://user-images.githubusercontent.com/94219582/201654751-ed977a09-58dc-4043-8e3a-b53ce9757184.png)
 
-![198868197-cd2ce5bb-1641-4ceb-b18c-a3e3970cd642](https://user-images.githubusercontent.com/94219582/201654788-1cdf7cdd-f7fb-4001-a922-94829ae2ede4.png)
-
 ### COUNTER CLOCKWISE
 ![198868218-a52b4338-015a-4e4c-8d50-f85d6d81a2bf](https://user-images.githubusercontent.com/94219582/201654858-4b1cec1b-32d9-444b-abcc-386f9342affc.png)
-
-![198868218-a52b4338-015a-4e4c-8d50-f85d6d81a2bf](https://user-images.githubusercontent.com/94219582/201654909-882b25f2-c391-4f1d-b0fa-746d594a7518.png)
 
 ### RESULTS AND DISCUSSION
 Thus, the speed and the direction of a DC motor using L293D driver ic( H- bridge) is controlled.
